@@ -1,0 +1,45 @@
+.horizontal-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    width:50%;
+    height:60%;
+  }
+  
+  /* .card-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+   */
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title1 {
+    font-size: 1.2em;
+    
+  }
+  
+  .card-description {
+    font-size: 1em;
+    /* color: #4b2121; */
+  }
+  .enrollbutton{
+    /* width:29%; */
+    height:7%;
+    background-color: bisque;
+    margin-left: 25%;
+    margin-top: 6%;
+    border-radius: 10px;
+  }
+  
+
+  .courses-container {
+    display: flex; /* Make the container a flex container */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
